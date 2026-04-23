@@ -1,0 +1,15 @@
+paths:
+  all:
+    record: yes
+    recordPath: ./recordings/%path/%Y-%m-%d_%H-%M-%S
+    recordPartDuration: 3600s
+    
+    # Разрешаем публикацию и чтение через WebRTC
+    webrtc: yes
+    
+# Настройки API и внутреннего веб-сервера
+api: yes
+apiAddress: :9997
+
+webrtcAddress: :8889
+webrtcICEUDP: yes
